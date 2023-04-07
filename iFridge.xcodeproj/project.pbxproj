@@ -17,6 +17,8 @@
 		1F6B3B1F29CBE24700CB5F95 /* iFridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B3B1E29CBE24700CB5F95 /* iFridgeTests.swift */; };
 		1F6B3B2929CBE24700CB5F95 /* iFridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B3B2829CBE24700CB5F95 /* iFridgeUITests.swift */; };
 		1F6B3B2B29CBE24700CB5F95 /* iFridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B3B2A29CBE24700CB5F95 /* iFridgeUITestsLaunchTests.swift */; };
+		1F750D5B29CBF9EB005C649D /* troubleshootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F750D5A29CBF9EB005C649D /* troubleshootingViewController.swift */; };
+		1F750D5D29CBFCA5005C649D /* tempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F750D5C29CBFCA5005C649D /* tempViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		1F6B3B2429CBE24700CB5F95 /* iFridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F6B3B2829CBE24700CB5F95 /* iFridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFridgeUITests.swift; sourceTree = "<group>"; };
 		1F6B3B2A29CBE24700CB5F95 /* iFridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F750D5A29CBF9EB005C649D /* troubleshootingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = troubleshootingViewController.swift; sourceTree = "<group>"; };
+		1F750D5C29CBFCA5005C649D /* tempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				1F6B3B0629CBE24400CB5F95 /* SceneDelegate.swift */,
 				1F6B3B0829CBE24400CB5F95 /* ViewController.swift */,
 				1F6B3B0A29CBE24400CB5F95 /* Main.storyboard */,
+				1F750D5A29CBF9EB005C649D /* troubleshootingViewController.swift */,
+				1F750D5C29CBFCA5005C649D /* tempViewController.swift */,
 				1F6B3B1029CBE24700CB5F95 /* Assets.xcassets */,
 				1F6B3B1229CBE24700CB5F95 /* LaunchScreen.storyboard */,
 				1F6B3B1529CBE24700CB5F95 /* Info.plist */,
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F750D5D29CBFCA5005C649D /* tempViewController.swift in Sources */,
 				1F6B3B0929CBE24400CB5F95 /* ViewController.swift in Sources */,
 				1F6B3B0529CBE24400CB5F95 /* AppDelegate.swift in Sources */,
 				1F6B3B0F29CBE24400CB5F95 /* iFridge.xcdatamodeld in Sources */,
+				1F750D5B29CBF9EB005C649D /* troubleshootingViewController.swift in Sources */,
 				1F6B3B0729CBE24400CB5F95 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
