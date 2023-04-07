@@ -19,6 +19,8 @@
 		1F6B3B2B29CBE24700CB5F95 /* iFridgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6B3B2A29CBE24700CB5F95 /* iFridgeUITestsLaunchTests.swift */; };
 		1F750D5B29CBF9EB005C649D /* troubleshootingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F750D5A29CBF9EB005C649D /* troubleshootingViewController.swift */; };
 		1F750D5D29CBFCA5005C649D /* tempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F750D5C29CBFCA5005C649D /* tempViewController.swift */; };
+		1F750DA229E0BC37005C649D /* tableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F750DA129E0BC37005C649D /* tableViewController.swift */; };
+		1F750DA429E0C0D0005C649D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F750DA329E0C0D0005C649D /* AddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		1F6B3B2A29CBE24700CB5F95 /* iFridgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFridgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1F750D5A29CBF9EB005C649D /* troubleshootingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = troubleshootingViewController.swift; sourceTree = "<group>"; };
 		1F750D5C29CBFCA5005C649D /* tempViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tempViewController.swift; sourceTree = "<group>"; };
+		1F750DA129E0BC37005C649D /* tableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewController.swift; sourceTree = "<group>"; };
+		1F750DA329E0C0D0005C649D /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				1F6B3B0629CBE24400CB5F95 /* SceneDelegate.swift */,
 				1F6B3B0829CBE24400CB5F95 /* ViewController.swift */,
 				1F6B3B0A29CBE24400CB5F95 /* Main.storyboard */,
+				1F750DA129E0BC37005C649D /* tableViewController.swift */,
+				1F750DA329E0C0D0005C649D /* AddViewController.swift */,
 				1F750D5A29CBF9EB005C649D /* troubleshootingViewController.swift */,
 				1F750D5C29CBFCA5005C649D /* tempViewController.swift */,
 				1F6B3B1029CBE24700CB5F95 /* Assets.xcassets */,
@@ -268,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F750D5D29CBFCA5005C649D /* tempViewController.swift in Sources */,
+				1F750DA229E0BC37005C649D /* tableViewController.swift in Sources */,
+				1F750DA429E0C0D0005C649D /* AddViewController.swift in Sources */,
 				1F6B3B0929CBE24400CB5F95 /* ViewController.swift in Sources */,
 				1F6B3B0529CBE24400CB5F95 /* AppDelegate.swift in Sources */,
 				1F6B3B0F29CBE24400CB5F95 /* iFridge.xcdatamodeld in Sources */,
